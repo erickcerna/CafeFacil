@@ -138,6 +138,32 @@ h1,h2,h3,h4,h5{
     
     
   }
+
+.contenidoFinal{
+    justify-content: center;
+     text-align: center;
+}
+  
+/* responsive */
+
+@media screen and (max-width:900px){
+    .mapas{
+      width:100%;
+    }
+    
+}
+  
+@media screen and (max-width:500px){
+    .cover{
+       height:300px;
+    }
+    
+    .mapas{
+      width:90%;
+    }
+    
+}
+  
   
   
   
